@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="#41A1D3">
-
+    android:layout_height="wrap_content">
     <RelativeLayout
         android:id="@id/back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="15dp" >
+        android:padding="15dp"
+        android:background="#41A1D3">
 
         <ImageView
             android:id="@+id/back"
@@ -22,13 +22,10 @@
             android:layout_marginStart="10dp"
             android:textSize="20sp"
             android:layout_toEndOf="@+id/back"
-            android:text="Password Show"
+            android:text="Login For Show PIN"
             android:textColor="@color/white"/>
 
     </RelativeLayout>
 
 
-
-
-
-</RelativeLayout>
+</LinearLayout>

@@ -6,35 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity"
     android:orientation="vertical"
-    android:background="#fff2df">
+    android:background="@drawable/bacblue" >
+    <include layout="@layout/toolbar1" />
 
     <EditText
         android:id="@+id/etxtname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Name"
+        android:hint="G-Mail"
+        android:textColor="@color/white"
         android:inputType="text"
         android:layout_marginTop="170dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        />
+        android:layout_marginEnd="20dp"  />
 
     <EditText
         android:id="@+id/etxtid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="ID"
-        android:inputType="number"
+        android:hint="NumberPassword Only"
+        android:textColor="@color/white"
+        android:inputType="numberPassword"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-       />
+        android:layout_marginEnd="20dp" />
 
     <TextView
-        android:layout_width="80dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp"
-        android:layout_marginStart="170dp"
+        android:padding="10dp"
         android:text="Data "
+        android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="20sp" />
 
     <Button
@@ -42,9 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="input"
-        android:background="@drawable/box"
-
-        />
+        android:background="@drawable/box"   />
 
 
 </LinearLayout>
